@@ -1,11 +1,11 @@
 ### 命令词识别（中文zh）
 #### 主要环境
-1、CUDA10.0.130
-2、cudnn7.6.0
-3、python3.6.7
-4、anaconda4.2.0
-5、tensorflow-gpu1.12.0
-6、keras2.2.4
+1、CUDA10.0.130  
+2、cudnn7.6.0  
+3、python3.6.7  
+4、anaconda4.2.0  
+5、tensorflow-gpu1.12.0  
+6、keras2.2.4  
 
 #### 命令词表
 - 总共79个词+unknown，即80个，具体可见keywords.txt
