@@ -1,0 +1,15 @@
+-0[octal]	-0[octal]
+-D[number/list]	-D[number/list]
+-F/pattern/	-F/pattern/
+-S	-S
+-U	-U
+-W	-W
+-[mM][-]module	-[mM][-]module
+-c	-c
+-e	-e
+-i[extension]	-i[extension]
+-n	-n
+-s	-s
+-u	-u
+-w	-w
+Run	Run
