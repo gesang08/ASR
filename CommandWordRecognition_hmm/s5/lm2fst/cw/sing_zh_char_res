@@ -1,0 +1,107 @@
+Input string: 播 放 雪 莉 的 歌 曲 Output string: 播 放 雪 莉 的 歌 曲
+Input string: 播 放 刘 明 湘 的 歌 曲 Output string: 播 放 刘 明 湘 的 歌 曲
+Input string: 播 放 玄 奘 的 歌 Output string: 播 放 玄 奘 的 歌
+Input string: 播 放 朴 宝 英 的 歌 曲 Output string: 播 放 朴 宝 英 的 歌 曲
+Input string: 播 放 王 芳 的 歌 Output string: 播 放 王 芳 的 歌
+Input string: 来 首 邵 兵 的 歌 Output string: 来 首 邵 兵 的 歌
+Input string: 播 放 文 雨 非 的 歌 曲 Output string: 播 放 文 雨 非 的 歌 曲
+Input string: 播 放 庞 龙 的 歌 Output string: 播 放 庞 龙 的 歌
+Input string: 播 放 佘 诗 曼 的 歌 曲 Output string: 播 放 佘 诗 曼 的 歌 曲
+Input string: 播 放 牛 奶 咖 啡 的 歌 Output string: 播 放 牛 奶 咖 啡 的 歌
+Input string: 播 放 夏 侯 钰 涵 的 歌 Output string: 播 放 夏 侯 钰 涵 的 歌
+Input string: 播 放 毕 书 尽 的 歌 曲 Output string: 播 放 毕 书 尽 的 歌 曲
+Input string: 播 放 许 佳 慧 的 歌 曲 Output string: 播 放 许 佳 慧 的 歌 曲
+Input string: 播 放 大 宝 法 王 的 歌 曲 Output string: 播 放 大 宝 法 王 的 歌 曲
+Input string: 播 放 张 宇 的 歌 的 歌 曲 Output string: 播 放 张 宇 的 歌 的 歌 曲
+Input string: 播 放 凌 云 的 歌 Output string: 播 放 凌 云 的 歌
+Input string: 播 放 许 茹 芸 的 歌 Output string: 播 放 许 茹 芸 的 歌
+Input string: 播 放 邵 夷 贝 的 歌 Output string: 播 放 邵 夷 贝 的 歌
+Input string: 请 来 首 无 印 良 品 的 歌 Output string: 请 来 首 无 印 良 品 的 歌
+Input string: 给 我 来 首 辛 晓 琪 唱 的 歌 Output string: 给 我 来 首 辛 晓 琪 唱 的 歌
+Input string: 请 来 个 朴 树 的 歌 曲 Output string: 请 来 个 朴 树 的 歌 曲
+Input string: 给 我 来 个 吕 方 唱 的 歌 Output string: 给 我 来 个 吕 方 唱 的 歌
+Input string: 请 播 放 一 个 李 宗 盛 唱 的 歌 Output string: 请 播 放 一 个 李 宗 盛 唱 的 歌
+Input string: 请 来 首 吕 方 的 歌 Output string: 请 来 首 吕 方 的 歌
+Input string: 给 我 来 首 莫 文 蔚 的 歌 曲 Output string: 给 我 来 首 莫 文 蔚 的 歌 曲
+Input string: 来 首 张 清 芳 唱 的 歌 Output string: 来 首 张 清 芳 唱 的 歌
+Input string: 请 来 首 任 贤 齐 最 新 的 歌 Output string: 请 来 首 任 贤 齐 最 新 的 歌
+Input string: 请 给 我 来 一 个 张 宇 最 新 的 歌 Output string: 请 给 我 来 一 个 张 宇 最 新 的 歌
+Input string: 来 一 个 黄 大 炜 的 歌 曲 Output string: 来 一 个 黄 大 炜 的 歌 曲
+Input string: 请 给 我 来 个 辛 晓 琪 唱 的 歌 Output string: 请 给 我 来 个 辛 晓 琪 唱 的 歌
+Input string: 来 一 个 张 宇 最 新 的 歌 Output string: 来 一 个 张 宇 最 新 的 歌
+Input string: 请 来 一 首 朴 树 演 唱 的 歌 Output string: 请 来 一 首 朴 树 演 唱 的 歌
+Input string: 给 我 来 首 梁 静 茹 演 唱 的 歌 Output string: 给 我 来 首 梁 静 茹 演 唱 的 歌
+Input string: 播 放 刘 珂 仪 的 歌 Output string: 播 放 刘 珂 仪 的 歌
+Input string: 播 放 阿 兰 的 歌 Output string: 播 放 阿 兰 的 歌
+Input string: 播 放 黄 立 行 的 歌 Output string: 播 放 黄 立 行 的 歌
+Input string: 播 放 金 虎 的 歌 Output string: 播 放 金 虎 的 歌
+Input string: 播 放 西 野 力 的 歌 曲 Output string: 播 放 西 野 力 的 歌 曲
+Input string: 播 放 谢 天 笑 的 歌 Output string: 播 放 谢 天 笑 的 歌
+Input string: 播 放 冯 德 伦 的 歌 Output string: 播 放 冯 德 伦 的 歌
+Input string: 播 放 朴 树 的 歌 的 歌 曲 Output string: 播 放 朴 树 的 歌 的 歌 曲
+Input string: 播 放 范 玮 琪 的 歌 曲 Output string: 播 放 范 玮 琪 的 歌 曲
+Input string: 播 放 颖 儿 的 歌 Output string: 播 放 颖 儿 的 歌
+Input string: 来 一 首 陈 道 明 的 歌 Output string: 来 一 首 陈 道 明 的 歌
+Input string: 请 来 一 首 张 宇 的 歌 Output string: 请 来 一 首 张 宇 的 歌
+Input string: 请 来 首 郑 智 化 演 唱 的 歌 Output string: 请 来 首 郑 智 化 演 唱 的 歌
+Input string: 来 一 首 林 忆 莲 唱 的 歌 Output string: 来 一 首 林 忆 莲 唱 的 歌
+Input string: 请 来 首 姜 育 恒 最 新 的 歌 Output string: 请 来 首 姜 育 恒 最 新 的 歌
+Input string: 请 给 我 来 首 陈 奕 迅 最 新 的 歌 Output string: 请 给 我 来 首 陈 奕 迅 最 新 的 歌
+Input string: 请 给 我 来 首 张 清 芳 的 歌 Output string: 请 给 我 来 首 张 清 芳 的 歌
+Input string: 来 个 陈 奕 迅 的 歌 Output string: 来 个 陈 奕 迅 的 歌
+Input string: 请 给 我 来 一 个 姜 育 恒 唱 的 歌 Output string: 请 给 我 来 一 个 姜 育 恒 唱 的 歌
+Input string: 给 我 来 个 林 俊 杰 最 新 的 歌 Output string: 给 我 来 个 林 俊 杰 最 新 的 歌
+Input string: 请 给 我 来 一 首 张 学 友 唱 的 歌 Output string: 请 给 我 来 一 首 张 学 友 唱 的 歌
+Input string: 请 给 我 来 一 个 张 学 友 的 歌 曲 Output string: 请 给 我 来 一 个 张 学 友 的 歌 曲
+Input string: 请 给 我 来 首 许 茹 芸 的 歌 Output string: 请 给 我 来 首 许 茹 芸 的 歌
+Input string: 请 给 我 来 一 首 张 信 哲 的 歌 Output string: 请 给 我 来 一 首 张 信 哲 的 歌
+Input string: 请 来 首 张 信 哲 的 歌 曲 Output string: 请 来 首 张 信 哲 的 歌 曲
+Input string: 来 个 张 信 哲 的 歌 Output string: 来 个 张 信 哲 的 歌
+Input string: 请 来 一 首 李 宗 盛 演 唱 的 歌 Output string: 请 来 一 首 李 宗 盛 演 唱 的 歌
+Input string: 播 放 张 震 岳 的 歌 Output string: 播 放 张 震 岳 的 歌
+Input string: 播 放 柯 有 伦 的 歌 Output string: 播 放 柯 有 伦 的 歌
+Input string: 播 放 大 乔 小 乔 的 歌 曲 Output string: 播 放 大 乔 小 乔 的 歌 曲
+Input string: 来 一 首 毛 阿 敏 的 歌 Output string: 来 一 首 毛 阿 敏 的 歌
+Input string: 来 一 首 林 永 健 的 歌 Output string: 来 一 首 林 永 健 的 歌
+Input string: 来 一 首 蒋 勤 勤 的 歌 Output string: 来 一 首 蒋 勤 勤 的 歌
+Input string: 来 一 首 陈 敏 之 的 歌 Output string: 来 一 首 陈 敏 之 的 歌
+Input string: 播 放 本 兮 的 歌 曲 Output string: 播 放 本 兮 的 歌 曲
+Input string: 播 放 谢 安 琪 的 歌 曲 Output string: 播 放 谢 安 琪 的 歌 曲
+Input string: 来 一 首 梁 博 的 歌 Output string: 来 一 首 梁 博 的 歌
+Input string: 来 一 首 叶 倩 彤 的 歌 Output string: 来 一 首 叶 倩 彤 的 歌
+Input string: 播 放 张 晓 晨 的 歌 Output string: 播 放 张 晓 晨 的 歌
+Input string: 播 放 杜 海 涛 的 歌 Output string: 播 放 杜 海 涛 的 歌
+Input string: 播 放 林 俊 杰 的 歌 Output string: 播 放 林 俊 杰 的 歌
+Input string: 请 来 首 张 清 芳 唱 的 歌 Output string: 请 来 首 张 清 芳 唱 的 歌
+Input string: 请 给 我 来 一 个 张 清 芳 的 歌 Output string: 请 给 我 来 一 个 张 清 芳 的 歌
+Input string: 来 一 首 黄 大 炜 唱 的 歌 Output string: 来 一 首 黄 大 炜 唱 的 歌
+Input string: 来 首 齐 秦 的 歌 Output string: 来 首 齐 秦 的 歌
+Input string: 来 首 张 信 哲 最 新 的 歌 Output string: 来 首 张 信 哲 最 新 的 歌
+Input string: 请 给 我 来 首 姜 育 恒 最 新 的 歌 Output string: 请 给 我 来 首 姜 育 恒 最 新 的 歌
+Input string: 给 我 来 一 首 许 茹 芸 演 唱 的 歌 Output string: 给 我 来 一 首 许 茹 芸 演 唱 的 歌
+Input string: 来 一 首 姜 育 恒 演 唱 的 歌 Output string: 来 一 首 姜 育 恒 演 唱 的 歌
+Input string: 请 来 一 首 张 清 芳 演 唱 的 歌 Output string: 请 来 一 首 张 清 芳 演 唱 的 歌
+Input string: 来 一 首 吕 方 唱 的 歌 Output string: 来 一 首 吕 方 唱 的 歌
+Input string: 来 一 首 方 大 同 唱 的 歌 Output string: 来 一 首 方 大 同 唱 的 歌
+Input string: 来 一 首 王 力 宏 最 新 的 歌 Output string: 来 一 首 王 力 宏 最 新 的 歌
+Input string: 请 给 我 来 一 首 朴 树 唱 的 歌 Output string: 请 给 我 来 一 首 朴 树 唱 的 歌
+Input string: 播 放 沈 凌 的 歌 Output string: 播 放 沈 凌 的 歌
+Input string: 播 放 雪 村 的 歌 Output string: 播 放 雪 村 的 歌
+Input string: 播 放 迪 玛 希 的 歌 曲 Output string: 播 放 迪 玛 希 的 歌 曲
+Input string: 播 放 刘 锡 明 的 歌 Output string: 播 放 刘 锡 明 的 歌
+Input string: 播 放 朱 止 瑶 的 歌 曲 Output string: 播 放 朱 止 瑶 的 歌 曲
+Input string: 播 放 张 博 的 歌 Output string: 播 放 张 博 的 歌
+Input string: 来 一 首 桑 兰 的 歌 Output string: 来 一 首 桑 兰 的 歌
+Input string: 播 放 毛 泽 少 的 歌 Output string: 播 放 毛 泽 少 的 歌
+Input string: 播 放 付 辛 博 的 歌 Output string: 播 放 付 辛 博 的 歌
+Input string: 播 放 薛 之 谦 的 歌 曲 Output string: 播 放 薛 之 谦 的 歌 曲
+Input string: 播 放 汪 东 城 的 歌 曲 Output string: 播 放 汪 东 城 的 歌 曲
+Input string: 播 放 鹏 泊 的 歌 曲 Output string: 播 放 鹏 泊 的 歌 曲
+Input string: 播 放 陈 一 发 儿 的 歌 Output string: 播 放 陈 一 发 儿 的 歌
+Input string: 来 一 个 张 学 友 最 新 的 歌 Output string: 来 一 个 张 学 友 最 新 的 歌
+Input string: 给 我 来 一 首 陈 奕 迅 最 新 的 歌 Output string: 给 我 来 一 首 陈 奕 迅 最 新 的 歌
+Input string: 来 个 姜 育 恒 的 歌 曲 Output string: 来 个 姜 育 恒 的 歌 曲
+Input string: 请 来 个 陈 奕 迅 演 唱 的 歌 Output string: 请 来 个 陈 奕 迅 演 唱 的 歌
+Input string: 给 我 来 一 个 方 大 同 的 歌 Output string: 给 我 来 一 个 方 大 同 的 歌
+Input string: 给 我 来 一 首 林 俊 杰 最 新 的 歌 Output string: 给 我 来 一 首 林 俊 杰 最 新 的 歌
+Input string: 来 一 首 信 乐 团 最 新 的 歌 Output string: 来 一 首 信 乐 团 最 新 的 歌

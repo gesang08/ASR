@@ -1,0 +1,39 @@
+########################################################
+# 功能：处理0-9999的整数数字变量                       #
+# 作者：gesang                                         #
+# 时间：2020-05-12                                     #
+# 工具：thrax                                          #
+########################################################
+
+st = SymbolTable['words.sym'];
+
+zero = "零".st;
+number_1_to_9 = "一".st | "幺".st | "二".st | "两".st | "三".st | "四".st | "五".st | "六".st | "七".st | "八".st | "九".st;
+number_0_to_9 = (zero | number_1_to_9);
+
+number_10_to_19 = "十 一".st | "十 二".st | "十 三".st | "十 四".st | "十 五".st | "十 六".st | "十 七".st | "十 八".st | "十 九".st;
+number_10_to_19_expand = "一 十".st | "二 十".st | "三".st | "十 四".st | "十 五".st | "十 六".st | "十 七".st | "十 八".st | "十 九".st;
+
+number_10s = (number_1_to_9 "十".st);
+number_100s = (number_1_to_9 "百".st);
+number_1000s = (number_1_to_9 "千".st);
+number_10000s = (number_1_to_9 "万".st);
+
+number_10_to_99 = ((number_10s number_1_to_9) | number_10s | number_10_to_19 | "十".st);
+
+number_1_to_99 = (number_1_to_9 | number_10_to_99);
+
+number_100_to_999 = ((number_100s zero number_1_to_9) | (number_100s number_10_to_99) | (number_100s number_1_to_9) | number_100s);
+
+number_1000_to_9999 = (
+	(number_1000s number_100_to_999) | 
+	(number_1000s zero number_10_to_99) | 
+	(number_1000s zero number_1_to_9) | 
+	number_1000s | 
+	(number_1000s number_1_to_9)
+);
+
+export number_0_to_99= zero | number_1_to_99;
+
+number = zero | number_1_to_99 | number_100_to_999 | number_1000_to_9999;
+export NUMBER = Optimize[number];

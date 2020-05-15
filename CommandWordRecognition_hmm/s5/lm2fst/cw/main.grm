@@ -1,0 +1,26 @@
+########################################################
+# 功能：命令词主语法，完成对分语法的合并               #
+# 作者：gesang                                         #
+# 时间：2020-05-12                                     #
+# 工具：thrax                                          #
+########################################################
+import 'number.grm' as numberlib;
+#import 'sing.grm' as singlib;
+#import 'tv.grm' as tvlib;
+import 'railway.grm' as railwaylib;
+
+st = SymbolTable['words.sym']; # 加载符号表，指定自定义解析方式
+general = LoadFst['general_G.fst']; # 加载N-gram训练的通用LM
+accept = Project[general, 'input']; # 将general规则变成真实的acceptor,而不是类似的，满足Difference参数要求
+
+#sing_tv = Optimize[singlib.SING | tvlib.TV];
+#sing_tv = Optimize[singlib.SING];
+#sing_tv = Optimize[tvlib.TV];
+sing_tv = Optimize[railwaylib.RAILWAY];
+all = Optimize[accept | sing_tv];  # 通用LM和特殊专用LM进行Union
+
+oov = Difference[all, sing_tv];  # 获得所有反例
+export OOV = Optimize[oov:"错 误".st];  # 将oov全部映射成‘错误’
+
+export G = Optimize[sing_tv | OOV];
+	

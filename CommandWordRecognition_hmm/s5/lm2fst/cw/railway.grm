@@ -1,0 +1,38 @@
+########################################################
+# 功能：铁路场景命令词语法                             #
+# 作者：gesang                                         #
+# 时间：2020-05-15                                     #
+# 工具：thrax                                          #
+########################################################
+import 'number.grm' as numberlib;
+
+st = SymbolTable['words.sym'];
+
+func Timesxy[fst] {
+	return fst{1,3}; # 指定接受规则的次数
+}
+
+action = (Timesxy["解 锁".st] | Timesxy["启 动".st] | Timesxy["停 车".st] | Timesxy["减 速".st] | Timesxy["领 车".st] | 
+        Timesxy["推 进".st] | Timesxy["连 接".st]);
+train_box_number = (
+	Timesxy[(numberlib.number_0_to_99 "号".st)] | 
+	Timesxy[(numberlib.number_0_to_99 "车".st)] | 
+	Timesxy[(numberlib.number_0_to_99 "号 车".st)] |
+	Timesxy[(numberlib.number_0_to_99 "车 厢".st)] |
+	Timesxy[(numberlib.number_0_to_99 "号 车 厢".st)]
+	);
+state = "紧 急".st;
+
+cwRailway = (action | 
+	train_box_number | 
+	(action train_box_number action?) | 
+	(train_box_number action train_box_number?){1,2} | 
+	(state action) | 
+	(train_box_number state action) | 
+	(state action train_box_number) |
+        ((state action train_box_number) (train_box_number state action)? train_box_number?)
+	);
+
+export RAILWAY = Optimize[cwRailway];
+
+	

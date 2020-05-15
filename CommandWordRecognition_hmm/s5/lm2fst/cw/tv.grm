@@ -1,0 +1,86 @@
+########################################################
+# 功能：电视剧播放命令词语法                           #
+# 作者：gesang                                         #
+# 时间：2020-05-12                                     #
+# 工具：thrax                                          #
+########################################################
+import 'number.grm' as numberlib;
+
+st = SymbolTable['words.sym'];
+
+action = "播 放".st | "请 播 放".st | "我 想 看".st | "请 给 我 播 放".st | "给 我 播 放".st | "开 始 播 放".st;
+series = (("第".st numberlib.NUMBER "集".st) | (numberlib.NUMBER "集".st));
+seasons = ("第".st numberlib.NUMBER "季".st);
+tv_name = ("媳 妇 的 美 好 时 代".st
+	| "少 年 天 子".st
+	| "血 色 浪 漫".st
+	| "岁 月".st
+	| "黎 明 之 前".st
+	| "苍 穹 之 昂".st
+	| "动 什 么 别 动 感 情".st
+	| "与 青 春 有 关 的 日 子".st
+	| "永 不 磨 灭 的 番 号".st
+	| "潜 伏".st
+        | "毛 骗".st
+	| "明 邪 榜".st
+	| "我 的 团 长 我 的 团".st
+	| "农 民 兵 葛 二 蛋".st
+	| "向 共 和".st
+	| "蜗 居".st
+	| "汉 武 大 帝".st
+	| "生 死 线".st
+	| "似 水 年 华".st
+	| "亮 剑".st
+	| "红 色".st
+	| "十 月 围 城".st
+	| "北 平 无 战 事".st
+	| "老 农 民".st
+	| "最 好 的 我 们".st
+	| "征 服".st
+	| "约 会 专 家".st
+	| "记 忆 的 证 明".st
+	| "楚 留 香 新 传".st
+	| "天 道".st
+	| "战 长 沙".st
+	| "琅 琊 榜".st
+	| "迷 雾".st
+	| "画 江 湖 之 不 良 人".st
+	| "我 们 无 处 安 放 的 青 春".st
+	| "遇 见 王 沥 川".st
+	| "伪 装 者".st
+	| "暗 算".st
+	| "外 乡 人".st
+	| "大 秦 帝 国 之 裂 变".st
+	| "大 宋 提 刑 官".st
+	| "雾 里 看 花".st
+	| "神 探 狄 仁 杰".st
+	| "激 情 燃 烧 的 岁 月".st
+	| "士 兵 突 击".st
+	| "余 罪".st
+	| "逆 水 寒".st
+	| "生 存 之 民 工".st
+	| "沉 默 的 证 人".st
+	| "仙 剑 奇 侠 传".st
+	| "历 史 的 天 空".st
+	| "贞 观 之 治".st
+	| "黑 洞".st
+	| "父 母 爱 情".st
+	| "康 熙 王 朝".st
+	| "人 间 正 道 是 沧 桑".st
+	| "老 大 的 幸 福".st
+	| "请 你 原 谅 我".st
+	| "我 想 看 手 机".st
+	| "新 结 婚 时 代".st
+	| "四 十 九 日 祭".st
+	| "爱 是 一 颗 幸 福 的 子 弹".st
+	| "怪 侠 一 枝 梅".st
+	| "大 宅 门".st
+);
+tv_name_season = ((tv_name seasons) | tv_name);
+tv_type = "电 视 剧".st;
+
+cwTV = ((action tv_name_season series) | (tv_name_season series) | (action tv_type tv_name_season series) | (tv_type tv_name_season series));
+
+export TV = Optimize[cwTV];
+
+	
