@@ -69,9 +69,9 @@
     Input string: Output string: 06年1月2号
     Input string: Output string: 有62%的人认为
     ```
-2.s5下conf、local、util、cmd.sh、path.sh、run.sh都是训练需要的文件
-3.s5下extract_feat.sh、plx_tool是特征辅助、拆成字char等工具
-4.hw-ofst thrax语法.grm示例文件与工具 来自http://cs.jhu.edu/~jason/465/hw-ofst 注意：这里面有个工具bin/far2fst是thrax编写规则后，将.far转成.fst的工具
+2.s5下conf、local、util、cmd.sh、path.sh、run.sh都是训练需要的文件  
+3.s5下extract_feat.sh、plx_tool是特征辅助、拆成字char等工具  
+4.hw-ofst thrax语法.grm示例文件与工具 来自http://cs.jhu.edu/~jason/465/hw-ofst 注意：这里面有个工具bin/far2fst是thrax编写规则后，将.far转成.fst的工具  
  
 ## 工具
 - kaldi 语音识别工具
